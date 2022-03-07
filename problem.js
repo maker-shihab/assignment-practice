@@ -18,8 +18,10 @@ const pandaCost = (singara, somucha, jilapi) => {
 }
 pandaCost(2, 0, 2);
 
-// Picnic Budget 
+// Picnic Budget Three number Problem
 function pricnicBudget(mamber) {
+  const firstMambers = 100 * 5000;
+  const secondMambers = 100 * 4000;
     if(mamber < 0 ){
       console.log('Sorry boss set Right Number');
     }
@@ -28,12 +30,12 @@ function pricnicBudget(mamber) {
       console.log(result);
     } 
     else if(mamber > 100 && mamber <= 200){
-      const result = mamber * 4000;
+      const result = (mamber - 100) * 4000 + firstMambers;
       console.log(result);
     } 
-    else if(mamber > 200 && mamber <= 300){
-      const result = mamber * 3000;
+    else if(mamber > 200){
+      const result = (mamber - 200) * 3000 + firstMambers + secondMambers;
       console.log(result);
     }
 }
-pricnicBudget(101);
+pricnicBudget(10);
