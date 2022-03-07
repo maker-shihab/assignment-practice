@@ -39,3 +39,12 @@ function pricnicBudget(mamber) {
     }
 }
 pricnicBudget(10);
+
+// Number Four Problem solve
+const oddNumber = ['makers', 'shihab', 'motior', 'saju', 'tarek', 'rased' ];
+oddNumber.forEach(mamber => {
+  const showNumber = mamber.length;
+  if(showNumber % 2 !== 0){
+    console.log(mamber);
+  }
+});
