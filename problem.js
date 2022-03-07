@@ -8,3 +8,12 @@ const anaToVori = ana => {
   }
 }
 anaToVori(10);
+// Problem Two
+const pandaCost = (singara, somucha, jilapi) => {
+  const singaraPrice = singara * 7;
+  const somuchaPrice = somucha * 10;
+  const jilapiPrice = jilapi * 15;
+   const totalPrice = (singaraPrice + somuchaPrice + jilapiPrice);
+   console.log(`Total MRP = ${totalPrice}tk`);
+}
+pandaCost(2, 0, 2);
