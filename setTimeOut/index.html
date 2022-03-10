@@ -11,10 +11,10 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container mt-5">
     <div class="row gx-5">
       <div class="col-sm-4">
-        <div class="card mt-5" style="width: 18rem;">
+        <div class="card mt-5">
           <div style="height: 200px;">
             <img style="height: 100%; width: 100%; object-fit: cover;"
               src="https://images.unsplash.com/photo-1624760457277-f4f30b59c1c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
@@ -24,12 +24,12 @@
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" id="btn-one" class="btn btn-success">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card mt-5" style="width: 18rem;">
+        <div class="card mt-5">
           <div style="height: 200px;">
             <img style="height: 100%; width: 100%; object-fit: cover;"
               src="https://images.unsplash.com/photo-1516822003754-cca485356ecb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -39,12 +39,12 @@
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" id="btn-two" class="btn btn-info">Go somewhere</a>
           </div>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="card mt-5" style="width: 18rem;">
+        <div class="card mt-5">
           <div style="height: 200px;">
             <img style="height: 100%; width: 100%; object-fit: cover;"
               src="https://images.unsplash.com/photo-1559240019-158188276b42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
@@ -54,12 +54,24 @@
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" id="btn-three" class="btn btn-warning">Go somewhere</a>
           </div>
         </div>
       </div>
     </div>
+    <div class="row gx-2 mt-4">
+      <div class="col-sm-4">
+        <p class="btn-success w-100" id="warning-one"></p>
+      </div>
+      <div class="col-sm-4">
+        <p class="btn btn-info w-100" id="warning-two">Success your are selected</p>
+      </div>
+      <div class="col-sm-4">
+        <p class="btn btn-warning w-100" id="warning-three">Success your are selected</p>
+      </div>
+    </div>
   </div>
+  <script src="setTimeOut.js"></script>
 </body>
 
 </html>
