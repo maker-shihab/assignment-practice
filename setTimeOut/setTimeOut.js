@@ -12,6 +12,7 @@ function saveData(){
   message.classList.add('btn');
   setTimeOut(() => {
     message.innerText = '';
+    
     message.classList.remove('btn');
   }, 3000)
 }
